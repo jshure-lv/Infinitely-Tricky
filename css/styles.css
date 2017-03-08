@@ -1,0 +1,56 @@
+body{
+
+    background-color: #bbb;
+}
+
+*{
+    font-family:helvetica;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-cell {
+  flex: 1;
+}
+
+h1{
+
+    font-family: 'Source Serif Pro', serif;
+    font-size:46px;
+    color:pink;
+
+}
+
+h2{
+
+    color:pink;
+    font-size:24px;
+}
+
+
+
+header{
+
+    width:30%;
+}
+
+top nav{
+
+    width:70%;
+    padding-top: 30px;
+    border: pink solid 1px;
+
+}
+
+.content-container{
+    height:10%;
+    width:960px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
